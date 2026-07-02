@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Day 16/100 - QR Gen | Vartul</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📱 QR Generator</h1>
+        <p class="day">Day 16/100 - Dubai 16% 🇦🇪</p>
+        
+        <input type="text" id="textInput" placeholder="Text ya URL daal bhai...">
+        
+        <button onclick="generateQR()">Generate QR</button>
+        
+        <div class="qr-box" id="qrBox">
+            <p>QR yaha dikhega 👇</p>
+        </div>
+        
+        <button id="downloadBtn" onclick="downloadQR()" style="display:none;">Download QR</button>
+        <p id="msg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
